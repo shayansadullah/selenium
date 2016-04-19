@@ -1,0 +1,14 @@
+Rules
+
+No Selenium Code in Step Definitions - With the exception of entering text
+No Project Specific Methods in PageBase, use appropriate page for these
+All By.Criteria to be defined and referenced in selectors page
+URLs and base URLs that aren’t in Gherkin must be constants
+Create triptych Given/When/Then step definitions where necessary
+Always copy generated methods to clipboard
+No Thread.Sleeps in any step definitions, wait for something instead
+Use regions in code to keep it nice and tidy
+“That” is a banned word in Gherkin
+Replace all auto generated variable names with something sensible
+All assertions have the optional message parameter populated except for AreEqual for error reporting
+Split Step Definitions out into sensible groupings/ filenames

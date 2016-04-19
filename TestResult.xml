@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Failed" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.0.5813.39036" clr-version="4.0.30319.42000" start-time="2016-02-26 10:32:05Z" end-time="2016-02-26 10:32:49Z" duration="44.184115">
+  <command-line><![CDATA["C:\Repos\specflowspike\packages\NUnit.Console.3.0.1\tools\nunit3-console.exe" /config:IE10Win8 C:\Repos\specflowspike\SpecflowSpike\bin\Debug\SpecflowSpike.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="SpecflowSpike.dll" fullname="C:\Repos\specflowspike\SpecflowSpike\bin\Debug\SpecflowSpike.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2016-02-26 10:32:05Z" end-time="2016-02-26 10:32:49Z" duration="44.142901" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.0.5813.39031" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10586.0" platform="Win32NT" cwd="C:\Repos\specflowspike" machine-name="DP-DEV-JH" user="jholsgrove" user-domain="HQ" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="ActiveConfig" value="IE10Win8" />
+      <setting name="WorkDirectory" value="C:\Repos\specflowspike" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="15768" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1005" name="SpecflowSpike" fullname="SpecflowSpike" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2016-02-26 10:32:05Z" end-time="2016-02-26 10:32:49Z" duration="44.137184" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1006" name="Features" fullname="SpecflowSpike.Features" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2016-02-26 10:32:05Z" end-time="2016-02-26 10:32:49Z" duration="44.137108" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1007" name="AlertingThresholds" fullname="SpecflowSpike.Features.AlertingThresholds" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2016-02-26 10:32:05Z" end-time="2016-02-26 10:32:49Z" duration="44.137103" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1000" name="AlertingThresholdFeature" fullname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature" classname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2016-02-26 10:32:05Z" end-time="2016-02-26 10:32:49Z" duration="44.135842" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="AlertingThreshold" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="0-1003" name="ChangeValuesInHostsTabAreInherited" fullname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ChangeValuesInHostsTabAreInherited" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2016-02-26 10:32:10Z" end-time="2016-02-26 10:32:49Z" duration="39.473787" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Category" value="AlertingThreshold" />
+                <property name="Description" value="Change Values in Hosts Tab are Inherited" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="0-1001" name="ChangeValuesInHostsTabAreInherited(&quot;Disk Usage&quot;,&quot;15&quot;,System.String[])" fullname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ChangeValuesInHostsTabAreInherited(&quot;Disk Usage&quot;,&quot;15&quot;,System.String[])" methodname="ChangeValuesInHostsTabAreInherited" classname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature" runstate="Runnable" seed="798259755" result="Failed" label="Error" start-time="2016-02-26 10:32:10Z" end-time="2016-02-26 10:32:47Z" duration="37.421217" asserts="0">
+                <failure>
+                  <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchWindowException : Window not found. The browser window may have been closed.
+TearDown : OpenQA.Selenium.NoSuchWindowException : Window not found. The browser window may have been closed.]]></message>
+                  <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SpecflowSpike.Pages.PageBase.WaitForVisibility(By identifier, Int32 maxWaitSeconds) in c:\Repos\specflowspike\SpecflowSpike\Pages\PageBase.cs:line 442
+   at SpecflowSpike.Pages.PageBase.WaitForElementById(String id) in c:\Repos\specflowspike\SpecflowSpike\Pages\PageBase.cs:line 416
+   at SpecflowSpike.Pages.AlertingThresholds.ClickSetThresholdsButton() in c:\Repos\specflowspike\SpecflowSpike\Pages\AlertingThresholdsPage.cs:line 76
+   at SpecflowSpike.Step_Definitions.AlertingThresholdSteps.ThenTheResultForShouldBe(String inputType, String percentageValue) in c:\Repos\specflowspike\SpecflowSpike\Step Definitions\AlertingThresholdSteps.cs:line 35
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ScenarioCleanup() in c:\Repos\specflowspike\SpecflowSpike\Features\Alerting Thresholds\AlertingThreshold.feature.cs:line 0
+   at SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ChangeValuesInHostsTabAreInherited(String input, String value, String[] exampleTags) in c:\Repos\specflowspike\SpecflowSpike\Features\Alerting Thresholds\AlertingThreshold.feature:line 14
+--NoSuchWindowException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+--TearDown
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetScreenshot()
+   at SpecflowSpike.Helpers.TakeScreenShot.SaveScreenShot(IWebDriver driver, String filename) in c:\Repos\specflowspike\SpecflowSpike\Helpers\TakeScreenShot.cs:line 21
+   at SpecflowSpike.Hooks.ScenarioHooks.AfterScenario() in c:\Repos\specflowspike\SpecflowSpike\Hooks\ScenarioHooks.cs:line 30
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType bindingEvent)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnScenarioEnd()
+   at SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ScenarioTearDown() in c:\Repos\specflowspike\SpecflowSpike\Features\Alerting Thresholds\AlertingThreshold.feature.cs:line 0]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given I log in to Highlight
+-> done: CommonSteps.GivenILogInToHighlight() (0.6s)
+And Navigate to the alerting threshold area
+-> done: CommonSteps.GivenNavigateToTheAlertingThresholdArea() (6.0s)
+When I enter a host value for Disk Usage as 15
+-> done: AlertingThresholdSteps.WhenIEnterAHostValueForAs("Disk Usage", "15") (0.2s)
+And I save my changes
+-> done: AlertingThresholdSteps.WhenISaveMyChanges() (0.1s)
+Then the result for Disk Usage should be 15
+-> error: Timed out after 30 seconds
+---------
+Save Screencap
+]]></output>
+              </test-case>
+              <test-case id="0-1002" name="ChangeValuesInHostsTabAreInherited(&quot;CPU Avg Utilisation&quot;,&quot;10&quot;,System.String[])" fullname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ChangeValuesInHostsTabAreInherited(&quot;CPU Avg Utilisation&quot;,&quot;10&quot;,System.String[])" methodname="ChangeValuesInHostsTabAreInherited" classname="SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature" runstate="Runnable" seed="1396928079" result="Failed" label="Error" start-time="2016-02-26 10:32:47Z" end-time="2016-02-26 10:32:49Z" duration="2.047479" asserts="0">
+                <failure>
+                  <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 2 seconds
+  ----> OpenQA.Selenium.NoSuchWindowException : Window not found. The browser window may have been closed.
+TearDown : OpenQA.Selenium.NoSuchWindowException : Window not found. The browser window may have been closed.]]></message>
+                  <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SpecflowSpike.Pages.PageBase.WaitForVisibility(By identifier, Int32 maxWaitSeconds) in c:\Repos\specflowspike\SpecflowSpike\Pages\PageBase.cs:line 442
+   at SpecflowSpike.Pages.PageBase.EnterTextIntoTextBox(By criteria, String text, Boolean addEnter) in c:\Repos\specflowspike\SpecflowSpike\Pages\PageBase.cs:line 205
+   at SpecflowSpike.Pages.NetEvidence.Login() in c:\Repos\specflowspike\SpecflowSpike\Pages\netEvidence.cs:line 20
+   at SpecflowSpike.Step_Definitions.CommonSteps.GivenILogInToHighlight() in c:\Repos\specflowspike\SpecflowSpike\Step Definitions\CommonSteps.cs:line 33
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ScenarioCleanup() in c:\Repos\specflowspike\SpecflowSpike\Features\Alerting Thresholds\AlertingThreshold.feature.cs:line 0
+   at SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ChangeValuesInHostsTabAreInherited(String input, String value, String[] exampleTags) in c:\Repos\specflowspike\SpecflowSpike\Features\Alerting Thresholds\AlertingThreshold.feature:line 14
+--NoSuchWindowException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+--TearDown
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetScreenshot()
+   at SpecflowSpike.Helpers.TakeScreenShot.SaveScreenShot(IWebDriver driver, String filename) in c:\Repos\specflowspike\SpecflowSpike\Helpers\TakeScreenShot.cs:line 21
+   at SpecflowSpike.Hooks.ScenarioHooks.AfterScenario() in c:\Repos\specflowspike\SpecflowSpike\Hooks\ScenarioHooks.cs:line 30
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType bindingEvent)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnScenarioEnd()
+   at SpecflowSpike.Features.AlertingThresholds.AlertingThresholdFeature.ScenarioTearDown() in c:\Repos\specflowspike\SpecflowSpike\Features\Alerting Thresholds\AlertingThreshold.feature.cs:line 0]]></stack-trace>
+                </failure>
+                <output><![CDATA[-> warning: The previous ScenarioContext was not disposed.
+Given I log in to Highlight
+-> error: Timed out after 2 seconds
+And Navigate to the alerting threshold area
+-> skipped because of previous errors
+When I enter a host value for CPU Avg Utilisation as 10
+-> skipped because of previous errors
+And I save my changes
+-> skipped because of previous errors
+Then the result for CPU Avg Utilisation should be 10
+-> skipped because of previous errors
+---------
+Save Screencap
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
